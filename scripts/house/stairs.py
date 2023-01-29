@@ -19,10 +19,10 @@ areas = ["hallway", 11.25,
          "bathroom", 9.50]
 
 # Use slicing to create downstairs
-downstairs = areas[0:6]
+downstairs = areas[:6]
 
 # Use slicing to create upstairs
-upstairs = areas[6:10]
+upstairs = areas[6:]
 
 # Print out downstairs and upstairs
 print(downstairs)
